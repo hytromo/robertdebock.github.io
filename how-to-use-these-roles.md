@@ -25,7 +25,7 @@ The `requirements.yml` file is a list of roles, for example:
 These roles are typically installed in `~/.ansible/roles/`. You can configure Ansible to look somewhere else though, for example this `ansible.cfg` stores the roles "locally", in the same directory where the ansible.cfg is found:
 
 ```ini
-[default]
+[defaults]
 roles_path = roles
 ```
 
